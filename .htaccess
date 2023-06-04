@@ -1,0 +1,3 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^jussegar/?$ jussegar.php [NC,L]
+RewriteRule ^jussegar/([0-9]+)/?$ jussegar.php?id=$1 [NC,L]
